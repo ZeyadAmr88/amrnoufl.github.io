@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="./assets/css/style_amr_portfolio.css">
+
+    <title></title>
+
+</head>
+
+<body>
+
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">عمرو</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link"><i class="uil uil-estate nav__icon"></i>الصفحة
+                            الرئيسية</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link"><i class="uil uil-user nav__icon"></i>عني</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link"><i class="uil uil-file-alt nav__icon"></i>الخبرات</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link"><i class="uil uil-message nav__icon"></i>للتواصل</a>
+                    </li>
+
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__btns">
+                <!-- Theme change button -->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main class="main">
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+
+
+                    <div class="home__img">
+
+                        <!-- <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0" mask-type="alpha">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+
+                                <image class="home__blob-img" x="15" y="10"
+                                    xlink:href="./assets/image/preview-removebg.png" />
+                            </g>
+                        </svg> -->
+
+                        <img src="./assets/image/preview-removebg.png" alt="" class="home__blob">
+                    </div>
+
+                    <div class="home__data">
+                        <h1 class="home__title">
+                            مرحباً, انا عمرو
+                        </h1>
+
+                        <h3 class="home__subtitle">
+                            محاسب مستودعات
+                        </h3>
+
+                        <p class="home__description">
+                            خبرةعالية في مجال المحاسبة وإدارة المستودعات
+                        </p>
+
+                        <a href="#contact" class="button button--flex">
+                            تواصل معي<i class="uil uil-message nav__icon button__icon"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+                        <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                        <span class="home__scroll-name">التمرير لأسفل</span>
+                        <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                    </a>
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/amro-noufal-467289118/" target="_blank"
+                            class="home__social-icon">
+                            <i class="uil uil-linkedin"></i>
+                        </a>
+                        <a href="https://www.facebook.com/amr.noufl" target="_blank" class="home__social-icon">
+                            <i class="uil uil-facebook-f"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about section" id="about">
+
+            <h2 class="section__title">عني</h2>
+            <span class="section__subtitle">المقدمة</span>
+
+            <div class="about__container container grid">
+
+                <div class="about__data">
+                    <p class="about__description">خبرة عالية في مجال محاسبة المستودعات و المحاسبة المالية بأستخدام احدث
+                        برامج المحاسبة.
+                        بارع في جميع وظائف المحاسبة ، بما في ذلك موازنة الميزانيات ، ومعالجة المدفوعات ، وإدارة الحسابات
+                        المستحقة الدفع وتقديم الدعم الإداري التنفيذي. </p>
+
+                    <div class="about__info">
+                        <div>
+                            <span class="about__info-title">25+</span>
+                            <span class="about__info-name">سنوات<br>الخبرة</span>
+                        </div>
+                        <div>
+                            <span class="about__info-title">5+</span>
+                            <span class="about__info-name">الشركات التي<br>عملت بها</span>
+                        </div>
+                    </div>
+
+                    <div class="about__buttons">
+                        <a download="" href="./assets/c.v amro noufal.pdf" class="button button--flex">
+                            تنزيل السيرة الذاتية <i class="uil uil-download-alt button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="skills section" id="skills">
+            <h2 class="section__title">المهارات</h2>
+            <span class="section__subtitle">مهاراتي الدراسية و العملية</span>
+
+            <div class="skills__container container grid">
+                <div class="skills__container11">
+
+                    <div class="skills__content  skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-bill skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">
+                                    Oracle
+                                </h1>
+                                <!-- <span class="skills__subtitle"></span> -->
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">
+                                        دورة مكثفة لنظام مراقبة وتخطيط وجرد المخازن
+                                    </h3>
+                                    <span class="skills__number">95%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__95"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">
+                                        دورة مكثفة لنظام سجالت واستقبال المخزون
+                                    </h3>
+                                    <span class="skills__number">98%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__98"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">
+                                        دورة مكثفة لنظام أوامر الشراء وإدارة الحسابات المرتقبة
+                                    </h3>
+                                    <span class="skills__number">96%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__96"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-microsoft skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">
+                                    Microsoft Office
+                                </h1>
+                                <!-- <span class="skills__subtitle"></span> -->
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">
+                                        Microsoft Word
+                                    </h3>
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__90"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">
+                                        Excel Office
+                                    </h3>
+                                    <span class="skills__number">92%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__92"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">
+                                        اجتياز دورة <br>
+                                        excel Advanced
+                                    </h3>
+                                    <span class="skills__number">100%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__100"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-english-to-chinese skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">
+                                    اللغات
+                                </h1>
+                                <!-- <span class="skills__subtitle"></span> -->
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">
+                                        اللغة العربية
+                                    </h3>
+                                    <span class="skills__number">100%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__100"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">
+                                        اللغة الانجليزية
+                                    </h3>
+                                    <span class="skills__number">55%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__55"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section class="qualification section">
+
+            <h2 class="section__title">الخبرات</h2>
+            <span class="section__subtitle">رحلتي الشخصية</span>
+
+            <div class="qualification__container container">
+                <div class="qualification__tabs">
+                    <div class="qualification__button button--flex " data-target="#education">
+                        <i class="uil uil-graduation-cap qualification__icon"></i>
+                        التعليم
+                    </div>
+                    <div class="qualification__button button--flex" data-target="#work">
+                        <i class="uil uil-briefcase-alt qualification__icon"></i>
+                        العمل
+                    </div>
+                </div>
+
+                <div class="qualification__sections">
+
+                    <!-- -------------------------------------------  1  -------------------------------------------------------------------- -->
+
+                    <div class="qualification__content " data-content id="education">
+
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">
+                                    بكالوريوس تجارة <br> فى مجال <br>المحاسبة والمعاملات المالية
+                                </h3>
+                                <span class="qualification__subtitle">مصر - جامعة عين شمس</span>
+
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                        </div>
+
+                        <div class="qualification__data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <!-- <span class="qualification__line"></span> -->
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">
+                                    دورة محاسبة
+                                </h3>
+                                <span class="qualification__subtitle">مصر - بالمجموعة الأستشارية للمحاسبة
+                                    والمراجعة</span>
+                                <div class="qualification__calender">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2010 - 2011
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+
+                    <!-- -------------------------------------------  2  -------------------------------------------------------------------- -->
+
+
+                    <div class="qualification__content" data-content id="work">
+
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">
+                                    مسؤول مخازن ثم مراقبة مخازن بنظام اوراكل
+                                </h3>
+                                <span class="qualification__subtitle">مصر - شركة جولدي</span>
+
+                                <div class="qualification__calender">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    1997 - 2010
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                        </div>
+
+                        <!-- ----------------------------------------------------------------------------------------------------------------------------- -->
+
+                        <div class="qualification__data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">
+                                    مسؤول المستودع الرئيسى بنظام برنامج اوراكل
+                                </h3>
+                                <span class="qualification__subtitle">مصر - شركة رغدان</span>
+                                <div class="qualification__calender">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2011 - 2012
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- ----------------------------------------------------------------------------------------------------------------------------- -->
+
+                        <div class="qualification__data">
+
+
+                            <div>
+                                <h3 class="qualification__title">محاسب مستودعات بنظام برنامج برايتون ثم هوك</h3>
+                                <span class="qualification__subtitle">السعودية - أسترا للإنشاءات</span>
+                                <div class="qualification__calender">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2012 - 2013
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                        </div>
+
+                        <!-- ----------------------------------------------------------------------------------------------------------------------------- -->
+
+                        <div class="qualification__data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <!-- <span class="qualification__line"></span> -->
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">
+                                    محاسب مستودعات
+                                </h3>
+                                <span class="qualification__subtitle">السعودية - محمد
+                                    العلي السويلم للتجارة والمقاوالت<br>
+                                    (ماسكو)</span>
+                                <div class="qualification__calender">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2014 - حتي الأن
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="contact section" id="contact">
+
+            <h2 class="section__title">تواصل معي</h2>
+            <span class="section__subtitle">للتواصل راسلني علي موقعي الخاص</span>
+
+            <div class="content__container container grid">
+                <div>
+                    <div class="contact__information">
+                        <i class="uil uil-phone contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">أتصل بي</h3>
+                            <a href="tel:+966599442575" class="contact__subtitle">+966-59-944-2575</a>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-envelope contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">البريد الأكتروني</h3>
+                            <a href="mailto:amro.noufal75@gmail.com"
+                                class="contact__subtitle">amro.noufal75@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-map-marker contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">موقعي الحالي</h3>
+                            <span class="contact__subtitle">البكيرية-القصيم-المملكة العربية السعودية</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact__form grid" action="https://formspree.io/f/xbjeolgz" method="POST">
+                    <div class="contact__inputs grid">
+                        <div class="contact__content">
+                            <label for="form-name" class="contact__label">الأسم</label>
+                            <input type="text" name="name" class="contact__input form-name" required>
+                        </div>
+                        <div class="contact__content">
+                            <label for="form-email" class="contact__label">البريد الأكتروني</label>
+                            <input type="email" name="email" class="contact__input form-email" required>
+                        </div>
+
+                    </div>
+
+                    <div class="contact__content">
+                        <label for="form-title" class="contact__label">عنوان الرسالة</label>
+                        <input type="text" name="title" class="contact__input form-title" required>
+                    </div>
+                    <div class="contact__content">
+                        <label for="form-message" class="contact__label">الرسالة</label>
+                        <textarea name="message" cols="" rows="7" class="contact__input form-message"
+                            required></textarea>
+                    </div>
+
+                    <!-- <a href="#" class="button button--flex">
+                        إرسال
+                        <i class="uil uil-message button__icon"></i>
+                    </a> -->
+
+                    <button type="submit" class="button form-button button--flex">
+                        إرسال
+                        <i class="uil uil-message button__icon"></i>
+                    </button>
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">عمرو</h1>
+                    <span class="footer__subtitle">محاسب مستودعات</span>
+                </div>
+
+                <ul class="footer__links">
+                    <li class="nav__item">
+                        <a href="#home" class="footer__link">الصفحة
+                            الرئيسية</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="footer__link">عني</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="footer__link">الخبرات</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="footer__link">للتواصل</a>
+                    </li>
+                </ul>
+
+                <div class="footer__socials">
+
+                    <a href="https://www.facebook.com/amr.noufl" class="footer__social" target="_blank"> <i
+                            class="uil uil-facebook-f"></i></a>
+                    <a href="https://www.linkedin.com/in/amro-noufal-467289118/" class="footer__social" target="_blank">
+                        <i class="uil uil-linkedin"></i></a>
+
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; Bedimcode. All right reserved</p>
+        </div>
+    </footer>
+
+
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+
+
+    <script src="./assets/js/script_amr_portfolio.js"></script>
+</body>
+
+</html>
